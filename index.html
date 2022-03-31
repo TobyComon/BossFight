@@ -47,6 +47,7 @@
 
         <div class="row">
             <div id="hero" class="col-6 card">
+                <button class="btn btn-danger text-light" onclick="buyHealth()">HEALTH PACK - 50G</button>
                 <h1>Jerry</h1>
                 <img src="https://play.nintendo.com/images/Masthead_Link.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png"
                     alt="" class="img-fluid">
@@ -54,9 +55,13 @@
             <div id="heroHealth" class="col-6">
                 <h1>Health</h1>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                        aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 100%" max="100"></div>
                 </div>
+                <h1>
+                    <span id="gold">
+
+                    </span>
+                </h1>
             </div>
     </main>
 
